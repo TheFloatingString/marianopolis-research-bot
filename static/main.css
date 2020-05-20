@@ -1,0 +1,13 @@
+body{
+	
+}
+
+.page-title{
+	text-align: center;
+	padding: 5%;
+	font-size: 30;
+}
+
+p.page-title{
+	font-weight: bold;
+}
