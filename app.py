@@ -9,7 +9,7 @@ def home():
 @app.route("/ask", methods=["GET", "POST"])
 def ask():
 	value = request.args.get("resp")
-	return "hello!" + ' ' +value
+	return value
 
 if __name__ == '__main__':
 	app.run(debug=True)

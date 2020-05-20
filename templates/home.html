@@ -48,18 +48,18 @@
 
       function conversation() {
       	botui.message.add({
-      		content: "Hello!"
+      		content: "Questions you can ask me"
       	}).then( function() {
       		return botui.action.button({
       			action: [{
       				text: "What is COVID-19?",
-      				value: "one"
+      				value: "COVID-19 is a disease that causes fever, and could lead to complications for vulnerable individuals."
       			},{
       				text: "What treatments are available?",
-      				value: "two"
+      				value: "Symptomatic and supportive care are current treatments. Specific treatments for COVID-19 are currently undergoing research."
       			},{
       				text: "What are symptoms of COVID-19?",
-      				value: "three"
+      				value: "Fever, cough, fatigue, shortness of breath, and loss of smell and taste are common COVID-19 symptoms."
       			}]
       		})
       	}).then(function(res) {
@@ -75,7 +75,15 @@
       	})
       }
 
-      conversation()
+      botui.message.add({
+      	content: "Hi! I'm a chatbot designed by the Marianopolis Research Team that streamlines information that have been documented by our team."
+      }).then( function() {
+      	botui.message.add({
+      		content: "You can always learn more about us or get in touch by visiting our website."
+      	})
+      }).then(function() {
+	      conversation();
+      })
 
     </script>
 
