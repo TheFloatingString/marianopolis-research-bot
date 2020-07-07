@@ -23,12 +23,15 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<!-- CSS -->
+    <!-- Icon -->
+    <link rel="icon" href="static/img/chat-black-18dp.svg" type="image/svg+xml">
+
+  	<!-- CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/botui/build/botui.min.css" />
     <link rel="stylesheet" href="{{ url_for('static', filename='css/custom-theme.css')}}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.2/css/bulma.min.css" />
 
-	<!-- JavaScript -->
+  	<!-- JavaScript -->
     <script src="https://cdn.jsdelivr.net/vue/2.0.5/vue.min.js"></script>
     <script src="https://unpkg.com/botui/build/botui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -58,10 +61,35 @@
       		dataType: "html",
       		async: false,
       		success: function(data){
-      			result=data;
+      			result=JSON.parse(data);
       		}
       	});
       	return result;
+      }
+
+      function getQuestions(numberOfQuestions){
+        var result = null;
+        $.ajax({
+          url: "/get_questions?n="+numberOfQuestions,
+          type: "get",
+          dataType: "html",
+          async: false,
+          success: function(data){
+            result=data;
+          }
+        });
+        console.log(result);
+        result = JSON.parse(result);
+        console.log(result);
+        var questionArray = Array();
+        console.log(result.length);
+
+        for (key in result){
+          questionArray.push({"text":result[key]["question"], "value":result[key]["question"]})
+        }
+
+        console.log(questionArray);
+        return questionArray;
       }
 
       function conversation(message) {
@@ -69,21 +97,13 @@
       		content: message
       	}).then( function() {
       		return botui.action.button({
-      			action: [{
-      				text: "What is COVID-19?",
-      				value: "COVID-19 is a disease that causes fever, and could lead to complications for vulnerable individuals."
-      			},{
-      				text: "What treatments are available?",
-      				value: "Symptomatic and supportive care are current treatments. Specific treatments for COVID-19 are currently undergoing research."
-      			},{
-      				text: "What are symptoms of COVID-19?",
-      				value: "Fever, cough, fatigue, shortness of breath, and loss of smell and taste are common COVID-19 symptoms."
-      			}]
+      			action: getQuestions(3)
       		})
       	}).then(function(res) {
       		console.log(res.value);
       		result = returnData(res.value);
-          conversation(result)
+          parsedAnswer = `${result["answer"]} <br><br><b>${result["author"]}</b> in ["${result["articleTitle"]}"](${result["link"]})^.`
+          conversation(parsedAnswer);
       	})
       }
 

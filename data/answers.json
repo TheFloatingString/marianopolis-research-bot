@@ -1,0 +1,138 @@
+{
+	"0": {
+		"question":"What is the origin of COVID-19?",
+		"answer":"It was quickly determined that the virus was first identified in Wuhan, China, but its exact origin remains a mystery. The most popular theory up to date is the possibility of the virus being transmitted from one wild animal to another in the Huanan Wet Market in Wuhan, before infecting humans who would have purchased the affected meats to consume. However, only 27 out of the first 41 patients had been in the market, which raises many eyebrows (Ellis, 2020). While everyone has agreed upon the fact that the virus most likely originated in bats, scientists and researchers have yet to determine whether an intermediate host (another animal) contracted the virus to then pass it onto humans.",
+		"articleTitle": "Origin",
+		"author": "Emma Zlatanovska",
+		"link":"https://drive.google.com/file/d/11TalbqyTHyJvDh-PzdRH1gr8VwUTDpJ3/view",
+		"date":"May 2020"
+	},
+	"1":{
+		"question":"Are viruses alive?",
+		"answer":"Viruses are submicroscopic particles that technically are not living organisms, normally seen as \"organisms at the edge of life\", since viruses can only partially meet the criteria for living. For example, living organisms often require their own metabolism or must be able to reproduce naturally without any external aid, two tasks that viruses are not able to perform. However, these infectious particles still possess genes in the form of nucleic acid and evolve by natural selection. It is due to this ambiguous standing that opinions on whether viruses should or should not be considered living vary greatly.",
+		"articleTitle":"Viruses",
+		"author": "Kevin Xu",
+		"link":"https://drive.google.com/file/d/11TalbqyTHyJvDh-PzdRH1gr8VwUTDpJ3/view",
+		"date":"May 2020"
+	},
+	"2":{
+		"question":"How does COVID-19 infect human cells?",
+		"answer":"When a person gets infected, they inhale droplets containing the virus. Consequently, this comes in contact with various parts of our body. Specifically, when the virus lines the inner walls of our nose, that’s when things can get tricky (Wadman et al., 2020). This region in our body is rich in cell surface receptors, called, angiotensin-converting enzyme 2 (ACE2). Generally, viruses correspond to intracellular parasites; they try to replicate themselves in order to prosper. Current research showcases how the SARS- CoV-2 is able to do so via ACE2. These membrane proteins are joined to the sympathetic nervous system (Foley 2020). Their role consists of binding to the ACE2 hormone. Therefore, acting through AT1 receptors, which stimulate cardiac growth (Zisman 2005). Scientists believe that the nature of covid-19 can initially evade our immune system by latching on this receptor and gaining access into to the human body (Cristiani et al.,).",
+		"articleTitle": "Entrance & Effects",
+		"author": "Tejeshwer Singh",
+		"link": "https://drive.google.com/file/d/11TalbqyTHyJvDh-PzdRH1gr8VwUTDpJ3/view",
+		"date":"May 2020"
+	},
+	"3": {
+		"question":"What are symptoms of COVID-19?",
+		"answer":"Common symptoms of Covid-19 include fever, dry cough, tiredness, aches, pain, nasal congestion, sore throat, diarrhea. The symptoms start mild and gradually intensify. Older individuals with high blood pressure, heart, lung problems and diabetes are more prompt to develop the symptoms presented. Anyone can catch the virus and become ill. Severe cases can cause pneumonia, severe acute respiratory syndrome, kidney failure and death.",
+		"articleTitle": "Covid-19 Characteristics and Consequences",
+		"author": "James Jing",
+		"link": "https://drive.google.com/file/d/11TalbqyTHyJvDh-PzdRH1gr8VwUTDpJ3/view",
+		"date":"May 2020"
+	},
+	"4": {
+		"question": "What governmental programs can I apply for if I am unemployed?",
+		"answer": "For those who are currently unemployed, renewable CERB benefits offer 2000$ a month for four months, but eligibility criterias left many out of the loop. This was addressed by the government with the newest CESB benefits offering 1250$ per month for students mostly as a stop-gap measure for expected lost income in the summer as good student jobs disappear.",
+		"articleTitle": "Social and Economic Impacts",
+		"author": "Bhromor Rahman",
+		"link": "https://drive.google.com/file/d/11TalbqyTHyJvDh-PzdRH1gr8VwUTDpJ3/view",
+		"date":"May 2020"
+	},
+	"5": {
+		"question": "What organs are affected by COVID-19?",
+		"answer": "Since the ACE 2 is found to be the human receptor of SARS-Cov-2, organs that express this enzyme are the ones mainly affected; namely, the lungs, the gastrointestinal system and the kidneys. The alveolar cells in the lungs are the major targets since they play a very important role in gas exchange during cellular respiration and provide a direct entry for respiratory droplets into the lungs (Sheshe et al.,2020). Furthermore, other research has confirmed that this new virus can cause nerve damage between the blood-brain barrier and enter the central nervous system (CNS) by penetrating the vascular system. When this new pneumonia virus’s particles bind to the ACE 2 receptors, it also causes very elevated blood pressure that increases the risk of a cerebral hemorrhage in patients (Wu et al., 2020 as cited by Baig et al., 2020).",
+		"articleTitle":"Anatomical Regions Affected by the Virus",
+		"author":"Linda Li",
+		"link": "https://drive.google.com/file/d/11TalbqyTHyJvDh-PzdRH1gr8VwUTDpJ3/view",
+		"date":"May 2020"
+	},
+	"6": {
+		"question": "What are coronaviruses?",
+		"answer": "\"Coronaviruses are enveloped RNA viruses that are distributed broadly among humans, other mammals, and birds and that cause respiratory, enteric, hepatic, and neurologic diseases. Six coronavirus species are known to cause human disease. Four viruses - 229E, OC43, NL63, and HKU1 - are prevalent and typically cause common cold symptoms in immunocompetent individuals. [T]wo other strains - severe acute respiratory syndrome coronavirus (SARS-CoV) and Middle East respiratory syndrome coronavirus (MERS-CoV) - are zoonotic in origin and have been linked to sometimes fatal illness. [SARS-nCov-2, the virus that causes COVID-19, is a relatively recent coronavirus.]",
+		"articleTitle":"Introduction",
+		"author": "Shi Tao Zhang",
+		"link": "https://drive.google.com/file/d/11TalbqyTHyJvDh-PzdRH1gr8VwUTDpJ3/view",
+		"date":"May 2020"
+	},
+	"7": {
+		"question": "What genes are essential to SARS-nCov-2 replication?",
+		"answer": "Casually said, viruses are lazy. Coronaviruses are no exception. They use most of the host cell's machinery to make what they need to replicate (5). Viruses have genes that encode for at least two crucial proteins; replicase, and a capsid. The replicase gene of coronaviruses occupy two-thirds of the genome (about 20 kb). It utilizes a 5′ cap structure along witha 3′ poly (A) tail, that allows the coronavirus to mimica mRNA that will induce the translation of replicasepolyproteins. As for the capsid, generally referred toby the broader term nucleocapsid, is helicallysymmetrical. Nucleocapsids are not simple barriers,they are complex and must be sufficiently stable inthe environment to protect the contained nucleic acidgenome of the coronavirus, and at the same time playmultiple roles in the interaction between the virion and host cell (J. H., Strauss, E. G. Strauss, 2008).",
+		"articleTitle": "Introduction",
+		"author": "Anthony Bai",
+		"link": "https://drive.google.com/file/d/11TalbqyTHyJvDh-PzdRH1gr8VwUTDpJ3/view",
+		"date":"May 2020"
+	},
+	"8": {
+		"question": "How does COVID-19 testing work?",
+		"answer": "Testing of SARS-CoV-2 is mainly done using the reverse transcription polymerase chain reaction (RT- PCR) method (Tiner, 2020), which has the advantage of directly determining the presence of viral RNA (Kent, 2020). This allows for diagnosis of infected individuals before the apparition of symptoms, which is very helpful for early quarantining intervention in order to \"break [the] transmission chain\" (Kent, 2020, paras.6). A swab is taken from the patient’s upper respiratory tract (Tiner, 2020), and the virus RNA is isolated in a laboratory setting.",
+		"articleTitle": "Testing and ACE2's Effect on Disease Severity",
+		"author": "Joyce Li",
+		"link": "https://drive.google.com/file/d/11TalbqyTHyJvDh-PzdRH1gr8VwUTDpJ3/view",
+		"date":"May 2020"
+	},
+	"9": {
+		"question": "Does a decrease in ACE2 expression levels impact COVID-19?",
+		"answer": "Recently, the ACE2 receptor has been widely identified as the culprit responsible for the viral entry of SARS-CoV-2 into the human host cell (Cristiani etal., 2020). Counter-intuitive as it may seem, however, down-regulation of ACE2 receptors is actually associated with higher risks of severe infection symptoms due to ACE2’s regulatory role on the angiotensin-renin system, on blood-clotting factors, and on the innate immune response.",
+		"articleTitle": "Testing and ACE2's Effect on Disease Severity",
+		"author": "Joyce Li",
+		"link": "https://drive.google.com/file/d/11TalbqyTHyJvDh-PzdRH1gr8VwUTDpJ3/view",
+		"date":"May 2020"
+	},
+	"10": {
+		"question": "How do scientists recognize the existence of a new viral strain?",
+		"answer": "It can however be difficult to decide whether a new virus should be considered a new species or merely a novel strain of an existing one: this is done by comparing its genome to other virus affecting the same host species or to monophyletic virus groups.",
+		"articleTitle": "The Importance of Taxonomy and Classification",
+		"author": "Michael Zhang",
+		"link": "https://drive.google.com/file/d/11TalbqyTHyJvDh-PzdRH1gr8VwUTDpJ3/view",
+		"date":"May 2020"
+	},
+	"11": {
+		"question": "What factors need to be taken into account to develop a treatment for COVID-19?",
+		"answer": "The development of an effective treatment against COVID-19 needs to take various factors into account, such as the demographics and socioeconomic status of vulnerable populations, the propagation of COVID-19 and the viral life cycle and the respective immune response.",
+		"articleTitle": "Aspects of an Accessible, Effective Treatment for COVID-19?",
+		"author": "Laurence Liang",
+		"link": "https://drive.google.com/file/d/11TalbqyTHyJvDh-PzdRH1gr8VwUTDpJ3/view",
+		"date":"May 2020"	
+	},
+	"12": {
+		"question": "Who is more at risk in contracting COVID-19?",
+		"answer": "The elderly population is considerably more at risk of fatality due to COVID-19. In Italy, the median age of death was 79 for men and 82 for women (Roland and Markus, 2020). Also, fatalities caused by the virus are experienced mainly by those with at least one comorbidity, most importantly heart disease, specifically hypertension, and diabetes (Wang, He, Yu, et al., 2020; Li, Liu, Wang, et al., 2020) In New York City, one of the global epicentres, up to 94% of deaths have had at least one comorbidity (Rabin, 2020).",
+		"articleTitle": "Risk Factors",
+		"author": "Emma Rodriguez",
+		"link": "https://drive.google.com/file/d/11TalbqyTHyJvDh-PzdRH1gr8VwUTDpJ3/view",
+		"date":"May 2020"		
+	},
+	"13": {
+		"question": "What drugs can be used to treat COVID-19?",
+		"answer": "There are currently no sure-fire solutions against SARS-CoV-2 pathogens and, therefore, the identification of antiviral agents and pharmacological treatments to combat this pathogenic disease is urgently needed.  Since the beginning of the identification of this virus, there have been multiple probable pharmacological treatments and amongst all of them, Remdesivir has been recognized as the most promising therapy.      <br><br>There are several drugs such as Lopinavir, Ritonavir, corticosteroids, remedisvir and ribavirin, which have been used to combat the previous infections, yet their rate of effectiveness has remained controversial. There are currently multiple FDA-approved drugs against SARS-CoV-19 such as Ribavirin, Chloroquine, Remdesivir and Favipiravir. Remdesivir is an antiviral drug that was first developed by Gilead Sciences to combat the Ebola Hemorrhagic Virus (EBV) in Africa. (Sanders.J, Monogue M et all, 2020). In 2015, the effectiveness of this treatment against the Ebola virus was considered to be insignificant. Remedisvir’s importance became apparent when it showed its potential to inhibit coronavirus polymerase. (July 2020 Update: Dexamethasone shows promise to reduce mortality among critically ill patients.)",
+		"articleTitle": "Treatment Methods and Vaccines",
+		"author": "Negin Amini",
+		"link": "https://drive.google.com/file/d/11TalbqyTHyJvDh-PzdRH1gr8VwUTDpJ3/view",
+		"date":"May 2020"	
+	},
+	"14":{
+		"question": "What is herd immunity?",
+		"answer": "This concept relies on the basis that a majority of the population in a specific community have acquired immunity to the virus. Herd immunity has previously shown to be a highly effective solution to large scale pandemics such as polio or smallpox. However, they have all been achieved through vaccination. As of April 2020, no vaccines have been proven effective to help individuals in the development of antibodies that can prevent the development of SARS-Cov-2. (D’Souza & Dowdy 2020).",
+		"articleTitle": "Herd Immunity and Diagnosis Methods",
+		"author": "Roger Pang",
+		"link": "https://drive.google.com/file/d/11TalbqyTHyJvDh-PzdRH1gr8VwUTDpJ3/view",
+		"date":"May 2020"
+	},
+	"15":{
+		"question": "How does COVID-19 affect different societal groups?",
+		"answer": "\"The COVID-19 outbreak affects all segments of the population and is particularly detrimental to members of those social groups in the most vulnerable situations, and continues to affect populations, including people living in poverty situations, older persons, persons with disabilities, youth, and indigenous peoples. Early evidence indicates that the health and economic impacts of the virus are being borne disproportionately by poor people. For example, homeless people, because they may be unable to safely shelter in place, are highly exposed to the danger of the virus. People without access to running water, refugees, migrants, or displaced persons also stand to suffer disproportionately both from the pandemic and its aftermath – whether due to limited movement, fewer employment opportunities, increased xenophobia etc",
+		"articleTitle": "COVID-19's Impact on People & Society",
+		"author": "Estub Yifru",
+		"link": "https://drive.google.com/file/d/11TalbqyTHyJvDh-PzdRH1gr8VwUTDpJ3/view",
+		"date":"May 2020"
+	},
+	"16":{
+		"question": "What examples of technology are being used to fight the COVID-19 pandemic?",
+		"answer": "[Rephrased] Contact tracing, improved diagnostic tests, accessible self-testing kits, and artificial intelligence to predict treatments and to better detect COVID-19 patient CT scans are examples.",
+		"articleTitle": "The Role of Technology in Mitigating the Negative Consequences of COVID-19",
+		"author": "Hyenjeong Kwon",
+		"link": "https://drive.google.com/file/d/11TalbqyTHyJvDh-PzdRH1gr8VwUTDpJ3/view",
+		"date":"May 2020"
+	}
+}
