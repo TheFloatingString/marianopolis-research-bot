@@ -2,13 +2,17 @@ body{
 	
 }
 
+::-webkit-scrollbar {
+	width: 2px;
+}
+
 a{
 	color: #30c18c;
 }
 
 .page-title{
 	text-align: center;
-	padding: 5%;
+	padding: 2%;
 	font-size: 30;
 }
 
