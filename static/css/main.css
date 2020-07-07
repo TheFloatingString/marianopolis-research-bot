@@ -2,6 +2,10 @@ body{
 	
 }
 
+a{
+	color: #30c18c;
+}
+
 .page-title{
 	text-align: center;
 	padding: 5%;
@@ -10,4 +14,17 @@ body{
 
 p.page-title{
 	font-weight: bold;
+}
+
+#page-title{
+	position: fixed;
+	top: 0%;
+	height: 10%;
+	width: 100%;
+}
+
+#botui-app{
+	position: absolute;
+	top: 10%;
+	height: 90%;
 }

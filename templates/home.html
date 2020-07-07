@@ -25,11 +25,11 @@
 
 	<!-- CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/botui/build/botui.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/botui/build/botui-theme-default.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/custom-theme.css')}}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.2/css/bulma.min.css" />
 
 	<!-- JavaScript -->
-    <script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/vue/2.0.5/vue.min.js"></script>
     <script src="https://unpkg.com/botui/build/botui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -39,7 +39,7 @@
 
 </head>
 <body>
-	<div class="page-title">
+	<div class="page-title" id="page-title">
 		<p><b>MRT Research Bot</b></p>
     <p><a href="https://www.marianopolisresearch.ca">Return to website</a></p>
 	</div>
@@ -64,9 +64,9 @@
       	return result;
       }
 
-      function conversation() {
+      function conversation(message) {
       	botui.message.add({
-      		content: "Questions you can ask me"
+      		content: message
       	}).then( function() {
       		return botui.action.button({
       			action: [{
@@ -83,13 +83,7 @@
       	}).then(function(res) {
       		console.log(res.value);
       		result = returnData(res.value);
-      		botui.message.add({
-      			content: result
-      		})
-
-      	}).then(function() {
-
-      		conversation();
+          conversation(result)
       	})
       }
 
@@ -97,10 +91,10 @@
       	content: "Hi! I'm a chatbot designed by the Marianopolis Research Team that streamlines information that have been documented by our team."
       }).then( function() {
       	botui.message.add({
-      		content: "You can always learn more about us or get in touch by visiting our website."
+      		content: "You can always learn more about us or get in touch by visiting [our website](https://www.marianopolisresearch.ca)^."
       	})
       }).then(function() {
-	      conversation();
+	      conversation("Questions you can ask me");
       })
 
     </script>
