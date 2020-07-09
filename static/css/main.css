@@ -27,9 +27,16 @@ p.page-title{
 #botui-app{
 	position: fixed;
 	width: 100%;
-	height: 100vh;
+	/*height: 100vh;*/
+	height: calc(100%-50px);
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-top: 70px;
 	margin-bottom: 80px;
+}
+
+@media (min-width: 400px){
+	#botui-app{
+		height: 100vh;
+	}
 }
