@@ -1,5 +1,5 @@
-body{
-	
+* {
+    -webkit-overflow-scrolling: touch;
 }
 
 ::-webkit-scrollbar {
@@ -10,29 +10,26 @@ a{
 	color: #30c18c;
 }
 
-.page-title{
-	text-align: center;
-	padding: 2%;
-	font-size: 30;
-}
-
 p.page-title{
 	font-weight: bold;
 }
 
 #page-title{
+	text-align: center;
+	padding: 10px;
+	font-size: 30;
 	position: fixed;
 	top: 0%;
 	width: 100%;
-	display: block;
-	overflow: auto;
 	background-color: white;
 }
 
 #botui-app{
+	position: fixed;
 	width: 100%;
 	height: 100vh;
 	padding-left: 10%;
 	padding-right: 10%;
-	padding-top: 50px;
+	padding-top: 70px;
+	margin-bottom: 80px;
 }
